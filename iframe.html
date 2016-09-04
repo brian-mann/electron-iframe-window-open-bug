@@ -6,10 +6,10 @@
       setTimeout(function(){
 
         // this would work if we uncommented this line
-        var child = window.top.open("child.html")
+        // var child = window.top.open("child.html")
 
         // this currenly fails because the child is undefined
-        // var child = window.open("child.html")
+        var child = window.open("child.html")
         debugger
       }, 1000)
     </script>
